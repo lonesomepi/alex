@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name:  MyPlugin
+Plugin Name:  BoilerPlate
 Description:  Example plugin for the video tutorial series, "WordPress: Plugin Development", available at Lynda.com.
 Plugin URI:   https://clas.ufl.edu/
 Author:       Alex Catalano
