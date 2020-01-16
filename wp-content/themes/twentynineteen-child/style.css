@@ -1,0 +1,39 @@
+/*
+ Theme Name:   Twenty Nineteen Child
+ Theme URI:    http://alexcatalano.com/wordpress/themes/twentynineteenchild/
+ Description:  Twenty Nineteen Child Theme
+ Author:       Alex Catalano
+ Author URI:   http://alexcatalano.com
+ Template:     twentynineteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentynineteenchild
+*/
+
+.site-description {
+    font-size: .7rem;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.entry .entry-content .wp-block-separator, .entry .entry-content hr {
+  background: none;
+  padding: 0;
+  border: none;
+  border-top: medium double #333;
+  color: #333;
+  text-align: center;
+  max-width: none;
+}
+
+.entry-content hr:after {
+  content: "§";
+  display: inline-block;
+  position: relative;
+  top: -1.1em;
+  font-size: 1.5em;
+  padding: 0 1em;
+  background: white;
+}
